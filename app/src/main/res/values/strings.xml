@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProtectedProjectWithCandC++</string>
+    <string name="value">value</string>
+    <string name="key">key</string>
+    <string name="inter_user_and_password">Inter User And Password</string>
+    <string name="confirm">Confirm</string>
 </resources>
