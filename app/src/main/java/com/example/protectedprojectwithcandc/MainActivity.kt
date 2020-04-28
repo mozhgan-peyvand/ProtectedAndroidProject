@@ -44,6 +44,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * my refrenc for coding with one of values ->https://howtodoinjava.com/security/aes-256-encryption-decryption/
+    * */
 
     @RequiresApi(Build.VERSION_CODES.O)
     fun encrypt(strToEncrypt: String, secret: String?): String? {
