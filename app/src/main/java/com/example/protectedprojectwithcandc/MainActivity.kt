@@ -34,11 +34,11 @@ class MainActivity : AppCompatActivity() {
 
         sample_text.text = stringFromJNI()
         btn_confirm.setOnClickListener {
-            var encrypted = encrypt(getValueJNI(et_value.text.toString()),secretKey)
-            var decrypted = decrypt(encrypted,secretKey)
+            var encrypted = getValueJNI(et_value.text.toString())
+//            var decrypted = decrypt(encrypted,secretKey)
             Toast.makeText(
                 applicationContext,
-                "encrypt : $encrypted\ndecrypt : $decrypted",
+                "encrypt : $encrypted\n",
                 Toast.LENGTH_LONG
             ).show()
         }
